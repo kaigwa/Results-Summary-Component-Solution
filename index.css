@@ -1,0 +1,176 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: hsl(0, 20%, 100%);
+}
+
+
+.violet{
+  background:hsl(252, 100%, 67%);
+  width: 300px;
+  height: 100px;
+  border-radius: 0 0 30px 30px;
+  color: white;
+  text-align: center;
+  /* padding: 20px;  */
+}
+
+h3, .great{
+  font-size: 18px;
+}
+
+.great{
+  position: relative;
+  top: 40px;
+}
+
+.text{
+  padding: 60px;
+  position: relative;
+  top: -10px;
+}
+
+.score{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-color: blue;
+  position: relative;
+  left: 50px;
+  top: 20px;
+
+}
+.digit{
+  font-size: 50px;
+  padding: 35px;
+  position: relative;
+  top: 15px;
+}
+
+.subdigit{
+  position: relative;
+  top: 15px;
+}
+
+.white{
+  font-weight: bold;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.list li{
+  padding: 20px;
+  list-style: none;
+
+}
+
+.Reaction{
+  color: hsl(0, 100%, 67%);
+  background-color: rgb(255, 248, 249);
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 20px;
+  font-weight: 500;
+
+}
+
+.Memory{
+  color:hsl(39, 100%, 56%);
+  background-color: hsl(43, 100%, 97%);
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 20px;
+  font-weight: 500;
+
+}
+
+.Verbal{
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(168, 83%, 98%);
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 20px;
+  font-weight: 500;
+
+} 
+
+.Visual{
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 63%, 97%);
+  border-radius: 10px;
+  width: 350px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.number{
+  color: rgb(83, 81, 81);
+  position: relative;
+  float: right;
+}
+
+button{
+  color: hsl(0, 20%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  border-radius: 30px;
+  height: 45px;
+  width: 350px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+button:hover{
+background-color: hsl(252, 100%, 67%);
+cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    margin: 200px 200px 200px 200px;
+    border-radius: 30px;
+    height: 500px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  }
+
+  .violet{
+    padding: 100px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .violet h3{
+    position: relative;
+    top: -60px;
+  }
+
+  .score{
+    position: relative;
+    top: -40px;
+    left: 50px;
+  }
+
+  .great{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+  }
+  .text{
+    padding: 0px;
+    position: relative;
+    top: 40px;
+    
+  }
+}
+
